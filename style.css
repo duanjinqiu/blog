@@ -1,0 +1,285 @@
+* {
+	padding: 0;
+	margin:  0;
+}
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style-type: none;
+}
+.header {
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+}
+/*头部左边logo部分*/
+.logo {
+	width: 20%;
+	height: 50px;
+	float: left;
+	line-height: 100px;
+	margin-top: 25px;
+}
+.logo img {
+	float: left;
+	margin: 0 10px 0 10px;
+	transition: 0.8s;
+}
+.logo img:hover {
+	transform: rotate(360deg);
+	transition: 0.8s;
+}
+.logo h1 {
+	line-height: 50px;
+	color: #635c5c;
+	font-size: 25px;
+	margin-left: 10px; 
+}
+/*头部左边部分结束*/
+
+/*头部右边二级菜单开始*/
+.header-menu {
+	float: right;
+	margin-top: 35px;
+}
+.header-menu>li {
+	float: left;
+	margin: 0 20px;
+	padding: 5px 10px;
+}
+.header-menu>li>a {
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+}
+.header-menu>li:hover {
+	background-color: #434343;
+	border-radius: 5px;
+}
+.header-menu>li:hover a {
+	color: #fff;
+}
+.header-menu .arrowdown {
+	position: relative;
+}
+.header-menu .arrow {
+	display: inline-block;
+	transform: rotate(90deg);
+	margin-left: 10px;
+}
+.header-menu .arrowdown:hover .second {
+	display: block;
+}
+.header-menu .second {
+	background: #434343;
+	position: absolute;
+	padding: 20px 0 20px 0;
+	top: 28px;
+	left: 0;
+	display: none;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.header-menu .second li {
+	width: 170px;
+}
+.header-menu .second li:hover {
+	background-color: #1f1f1f;
+}
+.header-menu .second li a {
+	font-size: 14px;
+	display: block;
+	padding: 10px 0 10px 14px;
+}
+
+.container {
+	background: #4c4c4c;
+	box-shadow: inset 0 0 15px black;
+}
+.container .banner {
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.container .banner>img {
+	border-radius: 5px;
+}
+
+.motto {
+	width: 980px;
+	margin: 28px auto;
+	overflow: hidden;
+}
+.motto>p:first-letter {
+	font:35px '微软雅黑';
+	float:left;
+	color: #ff6600;
+	padding: 5px;
+}
+.motto>p {
+	width: 640px;
+	font-size: 12px;
+	line-height: 22px;
+	float: left;
+}
+.motto>ul {
+	float: right;
+	width: 300px;
+}
+.motto>ul>li>img {
+	height: 50px;
+}
+.motto>ul>li {
+	float: right;
+	padding: 2px;
+	border: 1px solid #ccc;
+	font-size: 0;
+	margin-left: 10px;
+}
+
+.container2 {
+	overflow: hidden;
+	padding: 20px;
+	background: #f7f7f7;
+	border: 1px solid #ccc;
+}
+.container2 img {
+	border: 5px solid #ccc;
+	width: 260px;
+}
+.container2 .template {
+	overflow: hidden;
+	width: 1065px;
+	margin: 0 auto;
+}
+.container2 .template li p {
+	font-size: 12px;
+	width: 276px;
+	text-align: justify;
+}
+.container2 .template li h4 {
+	margin-top: 15px;
+}
+.container2 .template li h4 a {
+	display: inline-block;
+	color: #fff;
+	background: #333;
+	padding: 2px 8px;
+}
+.container2 .template li h4 a span {
+	display: none;
+}
+.container2 .template li h4 a:hover span {
+	display: inline-block;
+}
+.container2 .template li {
+	width: 310px;
+	float: left;
+	border-right: 2px dotted #ccc;
+	margin-left: 40px;
+}
+.container2 .template li:last-child {
+	border-right: transparent;
+}
+
+
+.idea {
+	margin: 30px auto;
+}
+.idea p {
+	width: 787px;
+	background: url('img/qleft.png') no-repeat, url('img/qright.png') no-repeat right;
+	padding: 0 120px;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: center;
+}
+
+
+.footer .foot-mid {
+	background: #4c4c4c;
+	color: #fff;
+	padding: 20px 0;
+}
+.footer .foot-mid .visitors {
+	width: 255px;
+}
+.footer .foot-mid>ul {
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer .foot-mid .visitors, .links, .contact {
+	float: left;
+}
+.footer .foot-mid  ul {
+	overflow: hidden;
+	margin-top: 10px;
+}
+.footer .foot-mid .visitors ul li {
+	float: left;
+}
+.footer .foot-mid ul img {
+	width: 55px;
+	height: 55px;
+	border: 3px solid black;
+	margin-right: 12px;
+}
+.footer .foot-mid .links {
+	margin-right: 100px;
+	width: 150px;
+}
+.footer .foot-mid .links ul li a {
+	font-size: 12px;
+	color: #c8c8c8;
+}
+.footer .foot-mid .links ul li a:hover {
+	color: #fff;
+}
+.footer .foot-mid .links ul li {
+	border-bottom: 1px solid #ccc;
+	padding: 5px 0;
+}
+.footer .foot-mid .links ul {
+	margin-top: 5px;
+}
+.footer .foot-mid .contact {
+	width: 245px;
+}
+.footer .foot-mid .contact form input , textarea {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	background: #444;
+	border: 1px solid #3b3b3b;
+}
+.footer .foot-mid .contact form input::placeholder {
+	color: #fff;
+}
+.footer .foot-mid .contact form input {
+	height: 30px;
+}
+.footer .foot-mid .contact form .submit {
+	width: 50px;
+	background: #444;
+}
+
+.footer .footer-bottom {
+	font-size: 12px;
+	color: #fff;
+	background: #333333;
+	height: 40px;
+}
+.footer .footer-bottom ul {
+	width: 1000px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+.footer .footer-bottom ul a {
+	color: #fff;
+}
+.footer .footer-bottom ul a:hover {
+	text-decoration: underline;
+}
